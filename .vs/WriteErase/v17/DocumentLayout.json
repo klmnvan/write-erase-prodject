@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS prodjects\\WriteErase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\listproductpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\listproductpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\converters\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:converters\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\authvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\authvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\authpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\authpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 479,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:58:00.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Converters\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\ImageConverter.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Converters\\ImageConverter.cs",
+              "RelativeToolTip": "Converters\\ImageConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:54:48.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListProductVM.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\ListProductVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ListProductVM.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\ListProductVM.cs",
+              "RelativeToolTip": "ViewModels\\ListProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:31:12.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListProductPage.axaml",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\ListProductPage.axaml",
+              "RelativeDocumentMoniker": "Views\\ListProductPage.axaml",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\ListProductPage.axaml",
+              "RelativeToolTip": "Views\\ListProductPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-11T12:16:38.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthVM.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\AuthVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AuthVM.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\AuthVM.cs",
+              "RelativeToolTip": "ViewModels\\AuthVM.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:11:45.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthPage.axaml",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml",
+              "RelativeDocumentMoniker": "Views\\AuthPage.axaml",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml",
+              "RelativeToolTip": "Views\\AuthPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-11T11:11:22.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthPage.axaml.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\AuthPage.axaml.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml.cs",
+              "RelativeToolTip": "Views\\AuthPage.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:11:21.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:05:05.642Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
