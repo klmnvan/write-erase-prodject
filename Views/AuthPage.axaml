@@ -15,13 +15,13 @@
 			<Panel Height="5"/>
 			<TextBlock Text="Логин" FontWeight="SemiBold"/>
 			<Panel Height="5"/>
-			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0"/>
+			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0" Text="{Binding UserLogin}"/>
 			<Panel Height="15"/>
 			<TextBlock Text="Пароль" FontWeight="SemiBold"/>
 			<Panel Height="5"/>
-			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0"/>
+			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0" Text="{Binding UserPassword}"/>
 			<Panel Height="15"/>
-			<Button Content="Продолжить" HorizontalAlignment="Center"/>
+			<Button Content="Продолжить" HorizontalAlignment="Center" Command="{Binding TryAuthCommand}"/>
 		</StackPanel>
 	</Grid>
 	

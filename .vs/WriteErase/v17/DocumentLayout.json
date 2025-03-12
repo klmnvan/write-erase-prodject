@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\VS prodjects\\WriteErase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\listproductpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\listproductpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\converters\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:converters\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\models\\productpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:models\\productpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\authvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\authvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\authpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\authpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\createorderpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\createorderpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\createordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\createordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\createorderpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\createorderpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:viewmodels\\listproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\views\\listproductpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:views\\listproductpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|d:\\vs prodjects\\writeerase\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CEFC3BD-C3B3-40DC-AAFE-E13B6A4F55F2}|WriteErase.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +50,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 479,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:22:24.395Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateOrderPage.axaml",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\CreateOrderPage.axaml",
+              "RelativeDocumentMoniker": "Views\\CreateOrderPage.axaml",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\CreateOrderPage.axaml",
+              "RelativeToolTip": "Views\\CreateOrderPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T15:09:46.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateOrderPage.axaml.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\CreateOrderPage.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\CreateOrderPage.axaml.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\CreateOrderPage.axaml.cs",
+              "RelativeToolTip": "Views\\CreateOrderPage.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:09:46.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOrderVM.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\CreateOrderVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CreateOrderVM.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\CreateOrderVM.cs",
+              "RelativeToolTip": "ViewModels\\CreateOrderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:09:23.824Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -51,101 +111,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "D:\\VS prodjects\\WriteErase\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwB0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T16:58:00.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImageConverter.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Converters\\ImageConverter.cs",
-              "RelativeDocumentMoniker": "Converters\\ImageConverter.cs",
-              "ToolTip": "D:\\VS prodjects\\WriteErase\\Converters\\ImageConverter.cs",
-              "RelativeToolTip": "Converters\\ImageConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T16:54:48.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListProductVM.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\ListProductVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ListProductVM.cs",
-              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\ListProductVM.cs",
-              "RelativeToolTip": "ViewModels\\ListProductVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:31:12.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListProductPage.axaml",
-              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\ListProductPage.axaml",
-              "RelativeDocumentMoniker": "Views\\ListProductPage.axaml",
-              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\ListProductPage.axaml",
-              "RelativeToolTip": "Views\\ListProductPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T12:16:38.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthVM.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\AuthVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\AuthVM.cs",
-              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\AuthVM.cs",
-              "RelativeToolTip": "ViewModels\\AuthVM.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:11:45.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AuthPage.axaml",
               "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml",
               "RelativeDocumentMoniker": "Views\\AuthPage.axaml",
               "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml",
               "RelativeToolTip": "Views\\AuthPage.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T11:11:22.246Z",
+              "WhenOpened": "2025-03-12T14:58:03.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthPage.axaml.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml.cs",
-              "RelativeDocumentMoniker": "Views\\AuthPage.axaml.cs",
-              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\AuthPage.axaml.cs",
-              "RelativeToolTip": "Views\\AuthPage.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "DocumentIndex": 2,
+              "Title": "AuthVM.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\AuthVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AuthVM.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\AuthVM.cs",
+              "RelativeToolTip": "ViewModels\\AuthVM.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:11:21.817Z"
+              "WhenOpened": "2025-03-12T14:28:18.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:07:02.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductPartial.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Models\\ProductPartial.cs",
+              "RelativeDocumentMoniker": "Models\\ProductPartial.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Models\\ProductPartial.cs",
+              "RelativeToolTip": "Models\\ProductPartial.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:47:28.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Title": "ListProductVM.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\ViewModels\\ListProductVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ListProductVM.cs",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\ViewModels\\ListProductVM.cs",
+              "RelativeToolTip": "ViewModels\\ListProductVM.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAmwIEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:05:05.642Z"
+              "WhenOpened": "2025-03-12T13:17:35.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListProductPage.axaml",
+              "DocumentMoniker": "D:\\VS prodjects\\WriteErase\\Views\\ListProductPage.axaml",
+              "RelativeDocumentMoniker": "Views\\ListProductPage.axaml",
+              "ToolTip": "D:\\VS prodjects\\WriteErase\\Views\\ListProductPage.axaml",
+              "RelativeToolTip": "Views\\ListProductPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T13:17:34.379Z",
+              "EditorCaption": ""
             }
           ]
         }

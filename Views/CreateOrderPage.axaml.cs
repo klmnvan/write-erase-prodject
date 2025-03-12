@@ -5,12 +5,11 @@ using WriteErase.ViewModels;
 
 namespace WriteErase;
 
-public partial class AuthPage : UserControl
+public partial class CreateOrderPage : UserControl
 {
-    public AuthPage()
+    public CreateOrderPage()
     {
-        DataContext = new AuthVM();
+        DataContext = new CreateOrderVM();
         InitializeComponent();
     }
-
 }

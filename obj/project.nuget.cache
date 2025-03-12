@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cRxr2dknsfnspyATuGgE76zKOfX2yfNTe0uQtSgC4hOOJFxDxlPdntWLWrAfAqkZ4iRrRTfC+ji3tlP5hTBMjA==",
+  "dgSpecHash": "VGSlNNnPePvtvsYDkFJMOES7Ho8q2auOeAdoa6UpIzMIZNi8mL0OcagdoAy9oJl4S6m8w0Z4rA57HoQeXDn/lw==",
   "success": true,
   "projectFilePath": "D:\\VS prodjects\\WriteErase\\WriteErase.csproj",
   "expectedPackageFiles": [
@@ -21,12 +21,14 @@
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.win32\\11.2.5\\avalonia.win32.11.2.5.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.x11\\11.2.5\\avalonia.x11.11.2.5.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\mcsyan\\.nuget\\packages\\dialoghost.avalonia\\0.8.1\\dialoghost.avalonia.0.8.1.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\harfbuzzsharp\\7.3.0.3\\harfbuzzsharp.7.3.0.3.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\7.3.0.3\\harfbuzzsharp.nativeassets.linux.7.3.0.3.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0.3\\harfbuzzsharp.nativeassets.macos.7.3.0.3.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\harfbuzzsharp.nativeassets.webassembly\\7.3.0.3\\harfbuzzsharp.nativeassets.webassembly.7.3.0.3.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0.3\\harfbuzzsharp.nativeassets.win32.7.3.0.3.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\mcsyan\\.nuget\\packages\\messagebox.avalonia\\3.2.0\\messagebox.avalonia.3.2.0.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
