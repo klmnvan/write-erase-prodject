@@ -1,12 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MsBox.Avalonia;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WriteErase.ViewModels
 {
@@ -25,7 +20,7 @@ namespace WriteErase.ViewModels
         [RelayCommand]
         public void GoListProduct()
         {
-            MainWindowViewModel.Instance.CurrentPage = new ListProductPage();
+            MainWindowViewModel.Instance.CurrentPage = new ListProductPage(new Models.Order());
         }
 
         [RelayCommand]
@@ -36,7 +31,7 @@ namespace WriteErase.ViewModels
 
                 if (MainWindowViewModel.Context.Users.Any(it => it.Login == UserLogin))
                 {
-                    var user = MainWindowViewModel.Context.Users.First();
+                    var user = MainWindowViewModel.Context.Users.First(it => it.Login == UserLogin);
                     if (user.Password == UserPassword)
                     {
                         MainWindowViewModel.Instance.CurrentPage = new ListProductPage(user);

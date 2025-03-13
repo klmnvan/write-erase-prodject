@@ -8,9 +8,9 @@ namespace WriteErase;
 
 public partial class ListProductPage : UserControl
 {
-    public ListProductPage()
+    public ListProductPage(Order order)
     {
-        DataContext = new ListProductVM();
+        DataContext = new ListProductVM(order);
         InitializeComponent();
     }
     public ListProductPage(User user)

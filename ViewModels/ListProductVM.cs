@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using Avalonia.Controls;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
 using MsBox.Avalonia;
@@ -35,16 +36,38 @@ namespace WriteErase.ViewModels
             "15% и более",
         };
         private int _selectedFilterType = 0;
-
-        public ListProductVM()
+        [ObservableProperty]
+        private bool _buttonIsVisible = false;
+        [ObservableProperty]
+        private bool _helloTextIsVisible = false;
+        [ObservableProperty]
+        private bool _buttonManageIsVisible = false;
+        private Order _order = new();
+        public ListProductVM(Order order)
         {
+            _order = order;
             InitData();
+            if(_order.OrderProducts.Count > 0) ButtonIsVisible = true;
         }
 
         public ListProductVM(User currentUser)
         {
             InitData();
             CurrentUser = currentUser;
+            HelloTextIsVisible = true;
+            //Проверяем, есть ли у текущего пользователя незавершённые заказы
+            if (!MainWindowViewModel.Context.Orders.Any(it => it.Status == 1 && it.IdUser == CurrentUser.Id))
+            {
+                //если нет, создаём
+                MainWindowViewModel.Context.Orders.Add(new() { Status = 1, IdUser = CurrentUser.Id });
+                MainWindowViewModel.Context.SaveChanges();
+            }
+            var order = MainWindowViewModel.Context.Orders.Include(it => it.OrderProducts).First(it => it.Status == 1 && it.IdUser == CurrentUser.Id);
+            if (order.OrderProducts.Count > 0) ButtonIsVisible = true;
+            if(currentUser.RoleId == 2 || currentUser.RoleId == 3)
+            {
+                ButtonManageIsVisible = true;
+            }
         }
 
         public string Search
@@ -125,9 +148,69 @@ namespace WriteErase.ViewModels
         }
 
         [RelayCommand]
-        public async void Test(Product p)
+        public async void AddToOrder(Product p)
         {
-            MessageBoxManager.GetMessageBoxStandard("тест", "тест", MsBox.Avalonia.Enums.ButtonEnum.Ok).ShowAsync();
+            //Проверка на гостя
+            if(CurrentUser.Id != 0)
+            {
+                //получаем заказ пользователя
+                var order = MainWindowViewModel.Context.Orders.Include(it => it.OrderProducts).First(it => it.Status == 1 && it.IdUser == CurrentUser.Id);
+                //получаем все товары из заказа
+                var orderProducts = order.OrderProducts.ToList();
+                //Если этот товар есть, увеличиваем на единицу количество
+                if(orderProducts.Any(it => it.ProductArticleNumber == p.ArticleNumber))
+                {
+                    var productInOrder = orderProducts.First(it => it.ProductArticleNumber == p.ArticleNumber);
+                    productInOrder.Count++;
+                }
+                //Если товара нет, добавляем его с количеством 1
+                else
+                {
+                    MainWindowViewModel.Context.OrderProducts.Add(new() { ProductArticleNumber = p.ArticleNumber, OrderId = order.Id, Count = 1 });
+                }
+                MainWindowViewModel.Context.SaveChanges();
+                MessageBoxManager.GetMessageBoxStandard("Сообщение", $"К заказу был добавлен товар {p.Name} в количестве одной единицы", MsBox.Avalonia.Enums.ButtonEnum.Ok).ShowAsync();
+            }
+            //у гостя работаем с объектом, которого ещё нет в БД
+            else
+            {
+                //Если этот товар есть, увеличиваем на единицу количество
+                if (_order.OrderProducts.Any(it => it.ProductArticleNumber == p.ArticleNumber))
+                {
+                    _order.OrderProducts.First(it => it.ProductArticleNumberNavigation == p).Count++;
+                }
+                //Если товара нет, добавляем его с количеством 1
+                else
+                {
+                    _order.OrderProducts.Add(new() { ProductArticleNumberNavigation = p, Order = _order, Count = 1 });
+                }
+            }
+            ButtonIsVisible = true;
+        }
+
+        [RelayCommand]
+        public async void GoToOrder()
+        {
+            if(CurrentUser.Id != 0)
+            {
+                var order = MainWindowViewModel.Context.Orders
+                    .Include(it => it.OrderProducts)
+                    .Include(it => it.IdUserNavigation)
+                    .Include(it => it.PickUpNavigation)
+                    .Include(it => it.StatusNavigation)
+                    .First(it => it.Status == 1 && it.IdUser == CurrentUser.Id);
+                MainWindowViewModel.Instance.CurrentPage = new CreateOrderPage(order);
+            }
+            else
+            {
+                MainWindowViewModel.Instance.CurrentPage = new CreateOrderPage(_order);
+            }
+        }
+
+        [RelayCommand]
+        public void GoToManageOrder()
+        {
+            MainWindowViewModel.Instance.CurrentPage = new OrderManagementPage(_currentUser);
         }
     }
 }

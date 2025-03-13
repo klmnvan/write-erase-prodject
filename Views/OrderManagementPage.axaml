@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="WriteErase.OrderManagementPage"
+			 xmlns:vm="using:WriteErase.ViewModels"
+			 x:DataType="vm:OrderManagementVM">
+
+	<Grid Margin="20 0" RowDefinitions="Auto, *, Auto">
+
+		<Grid Grid.Row="0" Margin="0 20 0 10" ColumnDefinitions="Auto, *">
+			<Button Content="Назад" Grid.Column="0" Command="{Binding GoBackCommand}"/>
+			<TextBlock Text="Управление заказами" FontWeight="Bold" HorizontalAlignment="Center" FontSize="24"
+					   Grid.Column="0" Grid.ColumnSpan="2"/>
+		</Grid>
+
+	</Grid>
+	
+</UserControl>

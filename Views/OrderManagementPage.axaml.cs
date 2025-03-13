@@ -6,11 +6,11 @@ using WriteErase.ViewModels;
 
 namespace WriteErase;
 
-public partial class CreateOrderPage : UserControl
+public partial class OrderManagementPage : UserControl
 {
-    public CreateOrderPage(Order order)
+    public OrderManagementPage(User u)
     {
-        DataContext = new CreateOrderVM(order);
+        DataContext = new OrderManagementVM(u);
         InitializeComponent();
     }
 }

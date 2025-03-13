@@ -49,3 +49,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [D:/VS prodjects/WriteErase/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/VS prodjects/WriteErase/Views/OrderManagementPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

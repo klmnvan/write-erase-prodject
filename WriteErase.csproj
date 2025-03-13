@@ -14,6 +14,9 @@
 
   <ItemGroup>
     <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\icon_delete.png" />
+    <None Remove="Assets\icon_minus.png" />
+    <None Remove="Assets\icon_plus.png" />
     <None Remove="Assets\picture.png" />
   </ItemGroup>
 

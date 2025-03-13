@@ -16,7 +16,7 @@
 
 		<StackPanel Grid.Row="0" Margin="0 20 0 0" Orientation="Vertical">
 			<TextBlock Text="Список товаров" FontWeight="Bold" HorizontalAlignment="Center" FontSize="24"/>
-			<TextBlock Margin="0 0 0 5">
+			<TextBlock Margin="0 0 0 5" IsVisible="{Binding HelloTextIsVisible}">
 				<TextBlock.Text>
 					<MultiBinding StringFormat="{}Здравствуй, {0} {1} {2}">
 						<Binding Path="CurrentUser.Surname"/>
@@ -51,7 +51,7 @@
 						<Border BorderThickness="2" BorderBrush="#76E383" CornerRadius="5" Background="{Binding Background}">
 							<Border.ContextMenu >
 								<ContextMenu>
-									<MenuItem Header="Добавить к заказу" Command="{Binding $parent[UserControl].((vm:ListProductVM)DataContext).TestCommand}" CommandParameter="{Binding}"/>
+									<MenuItem Header="Добавить к заказу" Command="{Binding $parent[UserControl].((vm:ListProductVM)DataContext).AddToOrderCommand}" CommandParameter="{Binding}"/>
 								</ContextMenu>
 							</Border.ContextMenu>
 							<Grid ColumnDefinitions="Auto, *, Auto" Margin="10">
@@ -79,7 +79,11 @@
 			</ListBox>
 		</ScrollViewer>
 
-		<TextBlock Grid.Row="2" Text="{Binding MessageCountProduct}" HorizontalAlignment="Right" Margin="0 5 0 10"/>
+		<Grid Grid.Row="2" RowDefinitions="*, Auto">
+			<Button Content="Управление заказами" Command="{Binding GoToManageOrderCommand}" IsVisible="{Binding ButtonManageIsVisible}"/>
+			<Button Content="Перейти к заказу" Command="{Binding GoToOrderCommand}" IsVisible="{Binding ButtonIsVisible}"/>
+			<TextBlock Grid.Row="1" Text="{Binding MessageCountProduct}" HorizontalAlignment="Right" Margin="0 5 0 10"/>
+		</Grid>
 		
 	</Grid>
 	
