@@ -11,16 +11,20 @@
 		<StackPanel HorizontalAlignment="Stretch" >
 			<TextBlock Text="Авторизация" FontWeight="Bold" HorizontalAlignment="Center" FontSize="24"/>
 			<Panel Height="15"/>
-			<Button Content="Список товаров" Command="{Binding GoListProductCommand}"/>
+			<Button Content="Войти как гость" Command="{Binding GoListProductCommand}"/>
 			<Panel Height="5"/>
 			<TextBlock Text="Логин" FontWeight="SemiBold"/>
 			<Panel Height="5"/>
-			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0" Text="{Binding UserLogin}"/>
+			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0" Text="{Binding UserLogin}" IsEnabled="{Binding IsDisabled}" />
 			<Panel Height="15"/>
 			<TextBlock Text="Пароль" FontWeight="SemiBold"/>
 			<Panel Height="5"/>
-			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0" Text="{Binding UserPassword}"/>
+			<TextBox HorizontalAlignment="Stretch" Margin="0 0 0 0" Text="{Binding UserPassword}" IsEnabled="{Binding IsDisabled}"/>
 			<Panel Height="15"/>
+			<StackPanel IsVisible="{Binding IsVisibleCaptcha}">
+				<TextBox Text="{Binding Tbcaptcha}" Watermark="Текст с капчи" Width="400" Margin="4"/>
+				<UserControl Content="{Binding Captcha}" HorizontalAlignment="Center" Width="400" Margin="4"/>
+			</StackPanel>
 			<Button Content="Продолжить" HorizontalAlignment="Center" Command="{Binding TryAuthCommand}"/>
 		</StackPanel>
 	</Grid>

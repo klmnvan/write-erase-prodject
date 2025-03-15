@@ -144,7 +144,7 @@ namespace WriteErase.ViewModels
             _currentOrder.DateOrder = new DateOnly(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
             _currentOrder.PickUpNavigation = SelectedPoint;
             _currentOrder.Code = MainWindowViewModel.Context.Orders.Select(it => it.Code).Max() + 1;
-            _currentOrder.Status = 2;
+            _currentOrder.Status = 1;
             if (_currentUser.Id != 0) _currentOrder.IdUserNavigation = CurrentUser;
             else MainWindowViewModel.Context.Orders.Add(_currentOrder);
             MainWindowViewModel.Context.SaveChanges();

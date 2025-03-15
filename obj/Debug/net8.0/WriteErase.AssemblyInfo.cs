@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WriteErase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75cf0ba58bfb232601b921f430cbc792fc494f39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c00dedee158e2f778ada4e4202e81417f1589608")]
 [assembly: System.Reflection.AssemblyProductAttribute("WriteErase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WriteErase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

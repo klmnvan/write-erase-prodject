@@ -1,4 +1,5 @@
 ﻿using Avalonia.Controls;
+using Avalonia.Controls;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
@@ -31,8 +32,8 @@ namespace WriteErase.ViewModels
         private List<string> _listFilterType = new()
         {
             "Все диапазоны",
-            "0-9,99%",
-            "10-14,99%",
+            "0-10%",
+            "11-14%",
             "15% и более",
         };
         private int _selectedFilterType = 0;
@@ -56,13 +57,13 @@ namespace WriteErase.ViewModels
             CurrentUser = currentUser;
             HelloTextIsVisible = true;
             //Проверяем, есть ли у текущего пользователя незавершённые заказы
-            if (!MainWindowViewModel.Context.Orders.Any(it => it.Status == 1 && it.IdUser == CurrentUser.Id))
+            if (!MainWindowViewModel.Context.Orders.Any(it => it.Status == null && it.IdUser == CurrentUser.Id))
             {
                 //если нет, создаём
-                MainWindowViewModel.Context.Orders.Add(new() { Status = 1, IdUser = CurrentUser.Id });
+                MainWindowViewModel.Context.Orders.Add(new() { Status = null, IdUser = CurrentUser.Id });
                 MainWindowViewModel.Context.SaveChanges();
             }
-            var order = MainWindowViewModel.Context.Orders.Include(it => it.OrderProducts).First(it => it.Status == 1 && it.IdUser == CurrentUser.Id);
+            var order = MainWindowViewModel.Context.Orders.Include(it => it.OrderProducts).First(it => it.Status == null && it.IdUser == CurrentUser.Id);
             if (order.OrderProducts.Count > 0) ButtonIsVisible = true;
             if(currentUser.RoleId == 2 || currentUser.RoleId == 3)
             {
@@ -107,17 +108,17 @@ namespace WriteErase.ViewModels
             {
                 if (_selectedFilterType == 1)
                     ProductsPreview = ProductsPreview
-                        .Where(it => it.CurrentDiscount >= 0 && it.CurrentDiscount < 10)
+                        .Where(it => it.CurrentDiscount >= 0 && it.CurrentDiscount <= 10)
                         .ToList();
                 
                 if (_selectedFilterType == 2)
                     ProductsPreview = ProductsPreview
-                        .Where(it => it.CurrentDiscount >= 10 && it.CurrentDiscount < 14)
+                        .Where(it => it.CurrentDiscount > 10 && it.CurrentDiscount <= 14)
                         .ToList();
                 
                 if (_selectedFilterType == 3)
                     ProductsPreview = ProductsPreview
-                        .Where(it => it.CurrentDiscount >= 15)
+                        .Where(it => it.CurrentDiscount > 15)
                         .ToList();
                 
             }
@@ -154,7 +155,7 @@ namespace WriteErase.ViewModels
             if(CurrentUser.Id != 0)
             {
                 //получаем заказ пользователя
-                var order = MainWindowViewModel.Context.Orders.Include(it => it.OrderProducts).First(it => it.Status == 1 && it.IdUser == CurrentUser.Id);
+                var order = MainWindowViewModel.Context.Orders.Include(it => it.OrderProducts).First(it => it.Status == null && it.IdUser == CurrentUser.Id);
                 //получаем все товары из заказа
                 var orderProducts = order.OrderProducts.ToList();
                 //Если этот товар есть, увеличиваем на единицу количество
@@ -198,7 +199,7 @@ namespace WriteErase.ViewModels
                     .Include(it => it.IdUserNavigation)
                     .Include(it => it.PickUpNavigation)
                     .Include(it => it.StatusNavigation)
-                    .First(it => it.Status == 1 && it.IdUser == CurrentUser.Id);
+                    .First(it => it.Status == null && it.IdUser == CurrentUser.Id);
                 MainWindowViewModel.Instance.CurrentPage = new CreateOrderPage(order);
             }
             else
@@ -211,6 +212,12 @@ namespace WriteErase.ViewModels
         public void GoToManageOrder()
         {
             MainWindowViewModel.Instance.CurrentPage = new OrderManagementPage(_currentUser);
+        }
+
+        [RelayCommand]
+        public void GoBackCommand()
+        {
+            MainWindowViewModel.Instance.CurrentPage = new AuthPage();
         }
     }
 }

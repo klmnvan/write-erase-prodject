@@ -15,7 +15,7 @@ public partial class Order
 
     public int? Code { get; set; }
 
-    public int Status { get; set; }
+    public int? Status { get; set; }
 
     public int? IdUser { get; set; }
 
@@ -25,5 +25,5 @@ public partial class Order
 
     public virtual PickUpPoint? PickUpNavigation { get; set; }
 
-    public virtual Status StatusNavigation { get; set; } = null!;
+    public virtual Status? StatusNavigation { get; set; }
 }

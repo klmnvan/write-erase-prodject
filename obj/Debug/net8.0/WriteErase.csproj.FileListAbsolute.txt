@@ -170,3 +170,4 @@ D:\VS prodjects\WriteErase\obj\Debug\net8.0\refint\Avalonia\WriteErase.dll
 D:\VS prodjects\WriteErase\obj\Debug\net8.0\WriteErase.sourcelink.json
 D:\VS prodjects\WriteErase\bin\Debug\net8.0\DialogHost.Avalonia.dll
 D:\VS prodjects\WriteErase\bin\Debug\net8.0\MsBox.Avalonia.dll
+D:\VS prodjects\WriteErase\bin\Debug\net8.0\Avalonia.Controls.ItemsRepeater.dll

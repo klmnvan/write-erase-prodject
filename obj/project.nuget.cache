@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VGSlNNnPePvtvsYDkFJMOES7Ho8q2auOeAdoa6UpIzMIZNi8mL0OcagdoAy9oJl4S6m8w0Z4rA57HoQeXDn/lw==",
+  "dgSpecHash": "L7yXAZPhcttmrEm84jcIEE/HjqnxzW2plCVrX5Kv7dhtJYytE0l1s4py6+hhA3GO1CzSZXlVnAP6A1vGxYGsFA==",
   "success": true,
   "projectFilePath": "D:\\VS prodjects\\WriteErase\\WriteErase.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.buildservices\\0.0.31\\avalonia.buildservices.0.0.31.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.controls.colorpicker\\11.2.5\\avalonia.controls.colorpicker.11.2.5.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.controls.datagrid\\11.2.5\\avalonia.controls.datagrid.11.2.5.nupkg.sha512",
+    "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.controls.itemsrepeater\\11.1.5\\avalonia.controls.itemsrepeater.11.1.5.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.desktop\\11.2.5\\avalonia.desktop.11.2.5.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.diagnostics\\11.2.5\\avalonia.diagnostics.11.2.5.nupkg.sha512",
     "C:\\Users\\mcsyan\\.nuget\\packages\\avalonia.fonts.inter\\11.2.5\\avalonia.fonts.inter.11.2.5.nupkg.sha512",

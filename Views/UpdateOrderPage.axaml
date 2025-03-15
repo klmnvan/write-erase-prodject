@@ -1,0 +1,30 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm="using:WriteErase.ViewModels"
+			 x:DataType="vm:UpdateOrderVM"
+             x:Class="WriteErase.UpdateOrderPage">
+
+	<Grid Margin="20">
+
+		<StackPanel HorizontalAlignment="Stretch">
+			<Button Content="Назад" Command="{Binding GoBackCommand}"/>
+			<TextBlock Text="{Binding Order.Code, StringFormat='{}Реадактирование заказа с номером: {0}'}" HorizontalAlignment="Center"/>
+			<TextBlock Text="Статус:" FontWeight="SemiBold"/>
+			<ComboBox ItemsSource="{Binding ListStatus}" SelectedItem="{Binding SelectedStatus}">
+				<ComboBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding Name}"/>
+					</DataTemplate>
+				</ComboBox.ItemTemplate>
+			</ComboBox>
+			<TextBlock Text="Дата доставки:" FontWeight="SemiBold"/>
+			<CalendarDatePicker SelectedDate="{Binding ServiceDateTime}" HorizontalAlignment="Stretch" Background="LightBlue"/>
+			<Button Content="Сохранить" Command="{Binding SaveCommand}"/>
+		</StackPanel>
+		
+	</Grid>
+	
+</UserControl>

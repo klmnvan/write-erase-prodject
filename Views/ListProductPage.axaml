@@ -15,7 +15,10 @@
 	<Grid Margin="20 0" RowDefinitions="Auto, *, Auto">
 
 		<StackPanel Grid.Row="0" Margin="0 20 0 0" Orientation="Vertical">
-			<TextBlock Text="Список товаров" FontWeight="Bold" HorizontalAlignment="Center" FontSize="24"/>
+			<Panel>
+				<Button Content="Назад" Command="{Binding GoBackCommand}"/>
+				<TextBlock Text="Список товаров" FontWeight="Bold" HorizontalAlignment="Center" FontSize="24"/>
+			</Panel>
 			<TextBlock Margin="0 0 0 5" IsVisible="{Binding HelloTextIsVisible}">
 				<TextBlock.Text>
 					<MultiBinding StringFormat="{}Здравствуй, {0} {1} {2}">
@@ -80,8 +83,10 @@
 		</ScrollViewer>
 
 		<Grid Grid.Row="2" RowDefinitions="*, Auto">
-			<Button Content="Управление заказами" Command="{Binding GoToManageOrderCommand}" IsVisible="{Binding ButtonManageIsVisible}"/>
-			<Button Content="Перейти к заказу" Command="{Binding GoToOrderCommand}" IsVisible="{Binding ButtonIsVisible}"/>
+			<StackPanel Grid.Row="0" Orientation="Vertical">
+				<Button Content="Управление заказами" Command="{Binding GoToManageOrderCommand}" IsVisible="{Binding ButtonManageIsVisible}"/>
+				<Button Content="Перейти к заказу" Command="{Binding GoToOrderCommand}" IsVisible="{Binding ButtonIsVisible}"/>
+			</StackPanel>
 			<TextBlock Grid.Row="1" Text="{Binding MessageCountProduct}" HorizontalAlignment="Right" Margin="0 5 0 10"/>
 		</Grid>
 		
